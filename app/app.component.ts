@@ -4,6 +4,7 @@ import { Hero } from './hero';
 
 @Component({
     selector: 'my-app',
+    // templateUrl: './partials/appcomponent.html'
     template: `
         <h1>{{title}}</h1>
         <h2>My favorite hero is {{myHero.name}}</h2>
@@ -16,6 +17,7 @@ import { Hero } from './hero';
         <click-me></click-me>
         <p *ngIf="heroes.length > 3">There are many heroes!</p>
         <key-up></key-up>
+        <little-tour></little-tour>
     `
 })
 
